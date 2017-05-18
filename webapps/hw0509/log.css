@@ -1,0 +1,95 @@
+body{
+background-color: #ffb6c1;
+/*margin:0;
+   padding:0;
+   background: #000 url( 'https://s3.amazonaws.com/sitebuilderreport-assets/stock_photos/files/000/018/441/small/2015-12-04-barnimages-09-768x1152.jpg?1457105831 ' );
+   margin:0 center center fixed no-repeat;
+   -moz-background-size: cover;
+   background-size: cover;*/
+}
+
+
+p{
+
+background-color:#d8bfd8;
+opacity:0.9;
+width: 250px;/*必須要設定你整個DIV區塊的寬度*/
+position: absolute;
+margin:0 auto;/*調整水平垂直置中*/
+top: 30%;
+left: 40%;
+overflow: auto;
+line-height:40px;
+text-align:center;
+}
+
+#j{
+
+width: 250px;/*必須要設定你整個DIV區塊的寬度*/
+position: absolute;
+margin: 0 auto;;/*調整水平垂直置中*/
+top: 40%;
+left: 40%;
+bottom: 60%
+padding:15px 0px;
+line-height:40px;
+background-color:#dda0dd;
+opacity:0.7;
+text-align:center;
+
+}
+a{
+  background-color:#ffb6c1;
+  height:150px;
+  text-align:center;
+  line-height:40px;
+}
+s{
+background-color:#ffb6c1;
+height:300px;
+text-align:center;
+line-height:50px;
+font-size:1.2cm;
+font-family:fantasy;
+
+}
+
+#bob{
+   padding: 6px 12px;
+   border: 1px solid #C7C7C7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#C286B1), to(#DB7BC5));
+   background: -webkit-linear-gradient(top, #C286B1, #DB7BC5);
+   background: -moz-linear-gradient(top, #C286B1, #DB7BC5);
+   background: -ms-linear-gradient(top, #C286B1, #DB7BC5);
+   background: -o-linear-gradient(top, #C286B1, #DB7BC5);
+   background-color: #DB7BC5;
+   box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #FF05E6;
+   -webkit-box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #FF05E6;
+   -moz-box-shadow: 0px 7px 2px -5px #1A1A1A, inset 0px 0px 3px #FF05E6;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   text-shadow: #BA189F 1px 1px 0px;
+   color: #F7F7F7;
+   font-size: 14px;
+   font-family: Times New Roman;
+   text-decoration: none;
+   font-weight: bold;
+   -webkit-transition: 0.2s;
+   -moz-transition: 0.2s;
+   -o-transition: 0.2s;
+   cursor: pointer;
+   }
+#bob:hover {
+   background: none;
+   background-color: #DB7BC5;
+   box-shadow: 0px 0px 5px 0px #AAAAAA;
+   -webkit-box-shadow: 0px 0px 5px 0px #AAAAAA;
+   -moz-box-shadow: 0px 0px 5px 0px #AAAAAA;
+   border: 1px solid #ffffff;
+   color: #ED0E9B;
+   }
+#bob:active {
+   top: 1px;
+   position: relative;
+   }
